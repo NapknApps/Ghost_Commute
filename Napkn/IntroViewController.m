@@ -37,7 +37,7 @@
 - (void)setUpIntro
 {
     self.explanations = [NSArray arrayWithObjects:
-                         [NSString stringWithFormat:@"Want to optimize your commute?"],
+                         [NSString stringWithFormat:@"Want to optimize your commutes?"],
                          [NSString stringWithFormat:@"Track your current commute."],
                          [NSString stringWithFormat:@"See how your doing against alt transportation methods."],
                          [NSString stringWithFormat:@"See your progress over time."],
