@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501D285C63452CA7907ADEF1 /* libPods-Napkn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E71C79F060CB412C503DAC /* libPods-Napkn.a */; };
 		D38F8CD71BB9C505004878E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F8CD61BB9C505004878E6 /* main.m */; };
 		D38F8CDA1BB9C505004878E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F8CD91BB9C505004878E6 /* AppDelegate.m */; };
 		D38F8CDD1BB9C505004878E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F8CDC1BB9C505004878E6 /* ViewController.m */; };
 		D38F8CE01BB9C505004878E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38F8CDE1BB9C505004878E6 /* Main.storyboard */; };
 		D38F8CE21BB9C505004878E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38F8CE11BB9C505004878E6 /* Assets.xcassets */; };
 		D38F8CE51BB9C505004878E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38F8CE31BB9C505004878E6 /* LaunchScreen.storyboard */; };
+		D38F8CEE1BB9C5EC004878E6 /* TwitterAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F8CED1BB9C5EC004878E6 /* TwitterAuthHelper.m */; settings = {ASSET_TAGS = (); }; };
+		D38F8CF21BB9C60C004878E6 /* accent_color.png in Resources */ = {isa = PBXBuildFile; fileRef = D38F8CF11BB9C60C004878E6 /* accent_color.png */; settings = {ASSET_TAGS = (); }; };
+		D38F8CFC1BB9C622004878E6 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F8CF51BB9C622004878E6 /* IntroViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D38F8CFD1BB9C622004878E6 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F8CF71BB9C622004878E6 /* AccountViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D38F8CFE1BB9C622004878E6 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F8CF91BB9C622004878E6 /* SignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D38F8CFF1BB9C622004878E6 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F8CFB1BB9C622004878E6 /* LogInViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D38F8D051BB9C635004878E6 /* FirebaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F8D021BB9C635004878E6 /* FirebaseHelper.m */; settings = {ASSET_TAGS = (); }; };
+		D38F8D061BB9C635004878E6 /* DefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F8D041BB9C635004878E6 /* DefaultsHelper.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16C680601741C9B2F999DEE9 /* Pods-Napkn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Napkn.release.xcconfig"; path = "Pods/Target Support Files/Pods-Napkn/Pods-Napkn.release.xcconfig"; sourceTree = "<group>"; };
+		AF8405C547DE845CCA8E4488 /* Pods-Napkn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Napkn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Napkn/Pods-Napkn.debug.xcconfig"; sourceTree = "<group>"; };
 		D38F8CD21BB9C505004878E6 /* Napkn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Napkn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38F8CD61BB9C505004878E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D38F8CD81BB9C505004878E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +37,22 @@
 		D38F8CE11BB9C505004878E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38F8CE41BB9C505004878E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D38F8CE61BB9C505004878E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38F8CEC1BB9C5EC004878E6 /* TwitterAuthHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAuthHelper.h; sourceTree = "<group>"; };
+		D38F8CED1BB9C5EC004878E6 /* TwitterAuthHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAuthHelper.m; sourceTree = "<group>"; };
+		D38F8CF11BB9C60C004878E6 /* accent_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accent_color.png; sourceTree = "<group>"; };
+		D38F8CF41BB9C622004878E6 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		D38F8CF51BB9C622004878E6 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		D38F8CF61BB9C622004878E6 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		D38F8CF71BB9C622004878E6 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		D38F8CF81BB9C622004878E6 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		D38F8CF91BB9C622004878E6 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		D38F8CFA1BB9C622004878E6 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		D38F8CFB1BB9C622004878E6 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		D38F8D011BB9C635004878E6 /* FirebaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirebaseHelper.h; sourceTree = "<group>"; };
+		D38F8D021BB9C635004878E6 /* FirebaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirebaseHelper.m; sourceTree = "<group>"; };
+		D38F8D031BB9C635004878E6 /* DefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultsHelper.h; sourceTree = "<group>"; };
+		D38F8D041BB9C635004878E6 /* DefaultsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultsHelper.m; sourceTree = "<group>"; };
+		D3E71C79F060CB412C503DAC /* libPods-Napkn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Napkn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +60,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501D285C63452CA7907ADEF1 /* libPods-Napkn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01701103F74074C0460EF428 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E71C79F060CB412C503DAC /* libPods-Napkn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6092658797729979BAD96FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF8405C547DE845CCA8E4488 /* Pods-Napkn.debug.xcconfig */,
+				16C680601741C9B2F999DEE9 /* Pods-Napkn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D38F8CC91BB9C505004878E6 = {
 			isa = PBXGroup;
 			children = (
 				D38F8CD41BB9C505004878E6 /* Napkn */,
 				D38F8CD31BB9C505004878E6 /* Products */,
+				C6092658797729979BAD96FB /* Pods */,
+				01701103F74074C0460EF428 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +109,10 @@
 				D38F8CD91BB9C505004878E6 /* AppDelegate.m */,
 				D38F8CDB1BB9C505004878E6 /* ViewController.h */,
 				D38F8CDC1BB9C505004878E6 /* ViewController.m */,
+				D38F8CEF1BB9C5F0004878E6 /* Frameworks */,
+				D38F8CF01BB9C5FF004878E6 /* Assets */,
+				D38F8CF31BB9C610004878E6 /* Intro / Account */,
+				D38F8D001BB9C625004878E6 /* Helpers */,
 				D38F8CDE1BB9C505004878E6 /* Main.storyboard */,
 				D38F8CE11BB9C505004878E6 /* Assets.xcassets */,
 				D38F8CE31BB9C505004878E6 /* LaunchScreen.storyboard */,
@@ -79,6 +130,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D38F8CEF1BB9C5F0004878E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D38F8CEC1BB9C5EC004878E6 /* TwitterAuthHelper.h */,
+				D38F8CED1BB9C5EC004878E6 /* TwitterAuthHelper.m */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D38F8CF01BB9C5FF004878E6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D38F8CF11BB9C60C004878E6 /* accent_color.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		D38F8CF31BB9C610004878E6 /* Intro / Account */ = {
+			isa = PBXGroup;
+			children = (
+				D38F8CF41BB9C622004878E6 /* IntroViewController.h */,
+				D38F8CF51BB9C622004878E6 /* IntroViewController.m */,
+				D38F8CF61BB9C622004878E6 /* AccountViewController.h */,
+				D38F8CF71BB9C622004878E6 /* AccountViewController.m */,
+				D38F8CF81BB9C622004878E6 /* SignUpViewController.h */,
+				D38F8CF91BB9C622004878E6 /* SignUpViewController.m */,
+				D38F8CFA1BB9C622004878E6 /* LogInViewController.h */,
+				D38F8CFB1BB9C622004878E6 /* LogInViewController.m */,
+			);
+			name = "Intro / Account";
+			sourceTree = "<group>";
+		};
+		D38F8D001BB9C625004878E6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D38F8D011BB9C635004878E6 /* FirebaseHelper.h */,
+				D38F8D021BB9C635004878E6 /* FirebaseHelper.m */,
+				D38F8D031BB9C635004878E6 /* DefaultsHelper.h */,
+				D38F8D041BB9C635004878E6 /* DefaultsHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D38F8CE91BB9C505004878E6 /* Build configuration list for PBXNativeTarget "Napkn" */;
 			buildPhases = (
+				1E43CBF16B607D69C27C5BC8 /* Check Pods Manifest.lock */,
 				D38F8CCE1BB9C505004878E6 /* Sources */,
 				D38F8CCF1BB9C505004878E6 /* Frameworks */,
 				D38F8CD01BB9C505004878E6 /* Resources */,
+				5717BB9A6843A08C3B5D3985 /* Embed Pods Frameworks */,
+				F4518BA1D05DF4E12888692D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,19 +236,75 @@
 				D38F8CE51BB9C505004878E6 /* LaunchScreen.storyboard in Resources */,
 				D38F8CE21BB9C505004878E6 /* Assets.xcassets in Resources */,
 				D38F8CE01BB9C505004878E6 /* Main.storyboard in Resources */,
+				D38F8CF21BB9C60C004878E6 /* accent_color.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E43CBF16B607D69C27C5BC8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5717BB9A6843A08C3B5D3985 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Napkn/Pods-Napkn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4518BA1D05DF4E12888692D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Napkn/Pods-Napkn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D38F8CCE1BB9C505004878E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38F8D051BB9C635004878E6 /* FirebaseHelper.m in Sources */,
+				D38F8CFF1BB9C622004878E6 /* LogInViewController.m in Sources */,
 				D38F8CDD1BB9C505004878E6 /* ViewController.m in Sources */,
 				D38F8CDA1BB9C505004878E6 /* AppDelegate.m in Sources */,
 				D38F8CD71BB9C505004878E6 /* main.m in Sources */,
+				D38F8D061BB9C635004878E6 /* DefaultsHelper.m in Sources */,
+				D38F8CEE1BB9C5EC004878E6 /* TwitterAuthHelper.m in Sources */,
+				D38F8CFD1BB9C622004878E6 /* AccountViewController.m in Sources */,
+				D38F8CFE1BB9C622004878E6 /* SignUpViewController.m in Sources */,
+				D38F8CFC1BB9C622004878E6 /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,22 +412,24 @@
 		};
 		D38F8CEA1BB9C505004878E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8405C547DE845CCA8E4488 /* Pods-Napkn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Napkn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.napknapps.Napkn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.napknapps.GhostCommute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		D38F8CEB1BB9C505004878E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C680601741C9B2F999DEE9 /* Pods-Napkn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Napkn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.napknapps.Napkn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.napknapps.GhostCommute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -298,6 +453,7 @@
 				D38F8CEB1BB9C505004878E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
